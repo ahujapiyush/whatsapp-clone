@@ -17,14 +17,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.piyushahuja.whatsapp"
+      "bundleIdentifier": "com.piyush.whatsapclone"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.piyushahuja.whatsapp"
+      "package": "com.piyush.whatsapclone"
     },
     "web": {
       "bundler": "metro",
