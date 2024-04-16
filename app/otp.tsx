@@ -47,7 +47,7 @@ function Page() {
       } catch (err) {
         console.log(err);
         if (isClerkAPIResponseError(err)) {
-          if (err.errors[0].code == "form_idetifier_exists") {
+          if (err.errors[0].code == "form_identifier_exists") {
             console.log("user exists");
             await trySignIn();
           } else {

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export default function communication() {
+export default function communities() {
   return (
     <View>
       <Text>communication</Text>

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-function Page() {
+function chats() {
   return (
     <View>
       <Text>Page</Text>
@@ -10,4 +10,4 @@ function Page() {
 }
 
 const styles = StyleSheet.create({});
-export default Page;
+export default chats;
