@@ -138,7 +138,7 @@ function Page() {
         <Text>
           You must be{" "}
           <Text style={styles.link} onPress={openLink}>
-            at lesat 16 year old
+            at least 16 year old
           </Text>{" "}
           to register. Learn how Whatsapp works with the{" "}
           <Text>Meta Companies</Text>{" "}

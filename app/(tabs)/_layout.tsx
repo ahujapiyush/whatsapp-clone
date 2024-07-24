@@ -14,6 +14,12 @@ export default function _layout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Tabs
         screenOptions={{
+          tabBarStyle: {
+            backgroundColor: Colors.background,
+          },
+          tabBarActiveTintColor: Colors.primary,
+          tabBarActiveBackgroundColor: Colors.background,
+          tabBarInactiveBackgroundColor: Colors.background,
           headerShadowVisible: false,
           headerStyle: { backgroundColor: Colors.background },
         }}
