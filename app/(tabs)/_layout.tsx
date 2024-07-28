@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { Tabs } from "expo-router";
+import { Tabs, useSegments } from "expo-router";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import {
   Ionicons,
@@ -10,6 +10,7 @@ import {
 import Colors from "@/constants/Colors";
 
 export default function _layout() {
+  const segment = useSegments();
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Tabs
@@ -64,6 +65,10 @@ export default function _layout() {
             tabBarIcon: ({ size, color }) => (
               <Ionicons name="chatbubbles" size={size} color={color} />
             ),
+            tabBarStyle: {
+              backgroundColor: Colors.background,
+              display: segment[2] === "[id]" ? "none" : "flex",
+            },
           }}
         />
         <Tabs.Screen
