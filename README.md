@@ -16,3 +16,7 @@ npm expo prebuild
 ```
 npm expo run:ios
 ```
+
+# Demo
+
+<iframe src="https://drive.google.com/file/d/14WgoaP-AC5Jk76w8VbZDQhmhN1z1aANE/preview" width="640" height="480" allow="autoplay"></iframe>
